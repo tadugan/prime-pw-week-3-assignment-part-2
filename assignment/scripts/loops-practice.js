@@ -55,7 +55,7 @@ let stars = ['Polaris', 'Gacrux', 'Formalhaut', 'Rigel', 'Deneb']
 
 // 2.a. TODO: Write a for of loop to console.log each star in the 'stars' array
 console.log('Some stars:');
-for (each of stars) {
+for (let each of stars) {
   console.log(each);
 }
 
@@ -66,7 +66,7 @@ console.log('---- 3. While loop ----');
 console.log('Some stars using while:');
 
 let position = 0;
-let maxPosition = (stars.length);
+let maxPosition = stars.length;
 
 while (position < maxPosition) {
   console.log(stars[position]);
